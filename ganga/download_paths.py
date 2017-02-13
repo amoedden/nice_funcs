@@ -1,5 +1,5 @@
 #script to get filepaths from lhcbdirac
-
+#usage: execfile("download_paths.py")
 jobnum = 79 #needed to hardcode
 
 for subjob in jobs(jobnum).subjobs:
